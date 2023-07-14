@@ -1,11 +1,11 @@
 #include<unistd.h>
-/*
+
+/**
  * main - Entry point
  *
- * Description: print a qoute using write function
- * ssize_t write(int fd, const void *buf, size_t count)
+ * Description: using sizeof to print the size of various types.
  *
- * Return: 1 (not succes)
+ * Return: Always 0 (Success)
 */
 
 int main(void)

@@ -1,10 +1,11 @@
-#include<stdio.h>
-/*
- * main -Entry point
+#include<stdio.>
+
+/**
+ * main - Entry point
  *
- * Description: A C program that prints with printf function
+ * Description: using sizeof to print the size of various types.
  *
- * Retrurn: Always 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)

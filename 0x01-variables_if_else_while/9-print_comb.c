@@ -5,7 +5,7 @@
  *
  * Description: print all single numner 1:9
  *
- * Retun: Alwyes 0(success)
+ * Return: Alwyes 0(success)
  */
 
 int main(void)
@@ -14,17 +14,14 @@ int main(void)
 
 	while (digit <= 9)
 	{
-		digit += 48;
-		putchar(digit);
+		putchar(digit + 48);
 
 		if (digit != 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-	}
-	digit++;
+		digit++;
 
 	return (0);
 }
-

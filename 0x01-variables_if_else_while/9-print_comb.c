@@ -22,6 +22,6 @@ int main(void)
 			putchar(' ');
 		}
 		digit++;
-
+	}
 	return (0);
 }

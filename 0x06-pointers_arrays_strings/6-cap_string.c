@@ -33,7 +33,7 @@ int isDelimiter(char c)
  * Return: string with capitalized words
  */
 
-chr *cap_string(char *s)
+char *cap_string(char *s)
 {
 	char *ptr = s;
 	int foundDelimit = 1;
